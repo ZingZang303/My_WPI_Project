@@ -40,3 +40,16 @@
   color: #ffccff;
 }
 
+#img {
+  display: inline;
+  float: right;
+}
+
+#dog_img {
+  display: inline;
+}
+
+#DogImg {
+  float: right;
+}
+
