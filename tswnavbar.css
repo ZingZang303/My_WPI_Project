@@ -43,6 +43,9 @@
 #img {
   display: inline;
   float: right;
+  right: 0%;
+  left: 0%;
+  z-index: auto;
 }
 
 #dog_img {

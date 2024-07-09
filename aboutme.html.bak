@@ -19,9 +19,10 @@
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
           <h1>About Me</h1>
-          <img src="images/dog1.png" alt="My Dog Georgia" id="DogImg"><br>
-          <p>Hello. My name is Zack. My hobbies include Lacrosse, Computer
-            Science, and Video Games. </p>
+          <img src="images/dog1.png" alt="My Dog Georgia" id="img">
+          <p>Hello. My name is Zack. I'm 17 and I'm going into my Senior year.
+            My hobbies include Lacrosse, Computer Science, and Video Games. I
+            have a dog named Georgia. </p>
           <p> </p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
