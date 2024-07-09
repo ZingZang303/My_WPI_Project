@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 125%;
+  background-color: #ffccff;
 }
 
 img {
@@ -48,8 +49,7 @@ div#tswcontproper {
 }
 
 div#tswcontainer {
-  color: ;
-  background-color: white;
+  background-color: #ffccff;
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -58,8 +58,8 @@ div#tswsideproper, div#tswothersideproper {
 }
 
 div#tswheader {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #ffccff;
 }
 
 div#tswfooter {
