@@ -9,12 +9,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIVE ME A TITLE!</title>
-    
+    <link rel="stylesheet" href="./numgame.css">   
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
-<body> <!-- do something onload -->
-    <h1>Number Guessing Game</h1>
+<body onload = "loadGame()">
+    <h1 id="title-text">Number Guessing Game</h1>
 
+    <h1><label>Make a guess: </label>
+    <input id="num-field" type="number">
+    <br>
+    </h1>
+    <button id="guess-button" onclick="makeGuess()"><h1>SUBMIT GUESS</h1></button>
+    <h1 id="message-text"></h1>
+    <br>
+    <button id="reset-button" onclick="loadGame()"><h2>RESET</h2></button>
     <!-- more elements here! -->
+    <script src="./numgame.js"></script>
 </body>
 </html>

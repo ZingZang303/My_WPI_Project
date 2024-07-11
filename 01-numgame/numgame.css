@@ -5,3 +5,35 @@
    3. elementtype (all elements of one type)
    4. * (all elements)
  */
+
+body{
+  background-color: #ffccff;
+  text-align: center;
+}
+
+#message-text {
+  position:relative;
+  top: 50%;
+  
+  visibility: hidden;
+}
+
+#title-text {
+  position: relative;
+}
+
+#guess-button {
+  width: 250px;
+  height: fit-content;
+}
+
+#num-field {
+  width: 50px;
+  height: 30px;
+}
+
+#reset-button {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+}
