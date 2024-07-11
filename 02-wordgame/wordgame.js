@@ -1,4 +1,5 @@
 let json;
+const body = document.body;
 
 // Returns a random integer between min and max
 //   [min, min+1, min+2, ... , max-1, max]
@@ -17,11 +18,38 @@ function loadGame() {
             // Split the text by lines to get individual words
             json = JSON.parse(text);
             console.log('Words loaded!');
+            wordsLoaded();
         })
         .catch(error => {
             console.error('Error fetching words: ', error);
         });
+        randomBackgroundColor();
 }
+
+function randomBackgroundColor() {
+    let random = randInt(0, 359);
+    let colorString = `hsl(${random}, 80%, 90%)`;
+    body.style.backgroundColor = colorString;
+}
+const randomWord = document.getElementById("random-word");
+let allWords = [];
+let fiveLetterWords = [];
+function wordsLoaded() {
+    allWords = Object.keys(json)
+    let randomIndex = randInt(0, allWords.length-1);
+    randomWord.innerHTML = allWords[randomIndex];
+
+    for(let i = 0; i < allWords.length; i++) {
+        let word = allWords[i];
+        if(word.length != 5) continue;
+        fiveLetterWords.push(word);
+    }
+    
+randomIndex = randInt(0, fiveLetterWords.length-1);
+secret = fiveLetterWords[randomIndex];
+
+}
+
 
 // TODO: write function isWord(word)
 
