@@ -1,0 +1,16 @@
+.grid-container {
+    
+    display: grid;
+    width: 90%;
+    gap: 10px;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-item {
+    border: 1px solid black;
+    
+}
+
+.grid-item:nth-of-type(1) {
+    font-size: large;
+}
