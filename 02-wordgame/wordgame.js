@@ -29,7 +29,7 @@ function loadGame() {
 }
 
 function randomBackgroundColor() {
-    let random = randInt(0, 359);
+    let random = randInt(180, 280);
     let colorString = `hsl(${random}, 90%, 60%)`;
     body.style.backgroundColor = colorString;
 }
