@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    font-family: cursive;
+    background-image: linear-gradient(to right, red , yellow);
+    
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #ffffff;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+h3 {
+    font-family: cursive;
+    margin: 5px;
+    color: black;
+    text-shadow: 10px 10px 10px rgb(255, 255, 255);
+    font-style: italic;
+
+}
+
+#scoreboard {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#reset, #button, #speed-button{
+    cursor: crosshair;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#gameboard {
+    border-radius: 25px;
+    border: 10px solid black;
+    padding: 0px;
+    width: 35%;
+    height: 50%;
+    box-shadow:15px 15px 8px red, 15px 15px 8px yellow, 15px 15px 8px orange;
+}
+canvas{
+    background-color: black;
+}
+.button-container {
+    display: flex;
+}
+#button, #reset, #speed-button {
+    margin: 5 10px; /* Adds space between buttons */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    text-overflow: hidden;
+    
+}
+#button{
+    visibility: hidden;
+}
+#speed-button{
+    visibility: hidden;
+}
